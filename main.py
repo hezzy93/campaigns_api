@@ -8,7 +8,6 @@ from auth import create_access_token, verify_password,settings
 from jose import jwt, JWTError
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from uuid import UUID
-from datetime import datetime, timezone
 
 Base.metadata.create_all(bind=engine)
 
