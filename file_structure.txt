@@ -1,0 +1,17 @@
+campaigns_api/
+├── main.py
+├── database.py
+├── models.py
+├── schemas.py
+├── auth.py
+│ 
+├── tests/
+│   ├── conftest.py
+│   ├── test_campaigns.py
+│   └── testusers.py
+├── requirements.txt
+└── README.md
+
+
+to run test_integration_campaigns
+python -m pytest tests -v
